@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Articles</title>
+</head>
+<body>
+<h1>This is the article info</h1>
+<p> Title: <%= @article.title %> </p>
+<p> Description: <%= @article.description %> </p>
+<p> <%= link_to "Show All Articles", articles_path %></p>
+<p> <%= link_to "Edit this article", edit_article_path(@article) %>
+</body>
+</html>
