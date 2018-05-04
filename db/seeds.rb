@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+casters= Caster.create([{first_name:Faker::Name.name},{last_name:Faker::Name.name},{email:Faker::Internet},{phone_number:Faker::PhoneNumber},{shoe_size:Faker::Name.name},{cloth_size:Faker::Name.name}])
+
+
+
